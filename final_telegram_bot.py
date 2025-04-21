@@ -26,7 +26,7 @@ user_data = {}
 
 # Функция отправки транзакции (симуляция успешной транзакции)
 def confirm_transaction(transaction_code):
-    return transaction_code == "CONFIRM123"
+    return transaction_code == "523240244451-a44tm1mraob9u76f16rrpadsmkpdqbum"
 
 async def start(update: Update, context):
     keyboard = [[InlineKeyboardButton(text=name, callback_data=name)] for name in CRYPTO_MODULES_FREE.keys()]
